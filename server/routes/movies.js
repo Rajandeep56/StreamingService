@@ -14,12 +14,13 @@ router.route("/")
     const noIds = movieList.map(movie => { 
       return {
         title: movie['title'], 
+        description:movie['description'],
         distributor: movie['distributor'],
         year: movie['year'],
         runtime: movie['runtime'],
         rating: movie['rating'],
-        imageUrl: movie['imageUrl'],
-
+        poster: movie['poster'],
+        background: movie['background']
       }});
     res.status(200).json(noIds);
   })
