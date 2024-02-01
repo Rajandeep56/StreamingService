@@ -1,13 +1,13 @@
 [
     {
         "id":"1",
-        "title":"WALL-E",
-        "description": "In a future Earth, a solitary waste-collecting robot uncovers a plant that sparks a profound journey, unraveling themes of love, environmentalism, and the enduring spirit of humanity.",
+        "title":"Brave",
+        "description": "In a Scottish kingdom, Princess Merida's rebellion sparks chaos. Seeking to undo a curse endangering her mother, she confronts challenges, relying on courage and family bonds. This animated adventure, rich in visuals and emotion, explores themes of independence and self-discovery in a captivating tale.",
         "distributor":"Walt Disney",
-        "year":"2008",
+        "year":"2012",
         "runtime": "1hr 38min",
         "rating": "93% match",
-        "poster": "https://www.intofilm.org/intofilm-production/1341/scaledcropped/3000x1688/resources/1341/brave-ep-disney.jpg",
+        "poster": "https://cdn.shopify.com/s/files/1/0057/3728/3618/products/902ab8634000ca23e92055988de210e0_2b3ec72d-873c-48b7-85cf-e5ac68c42f69_500x749.jpg?v=1573587242",
         "background": "https://www.intofilm.org/intofilm-production/1341/scaledcropped/3000x1688/resources/1341/brave-ep-disney.jpg"
 
      },
@@ -19,8 +19,8 @@
         "year": "2020",
         "runtime": "1hr 42min",
         "rating": "88% match",
-        "poster": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/E08FE27F517A152D8174D7264F91B3B9912AA2E127F23AB430C1DD5848E1BF7C/scale?width=1200&amp;aspectRatio=1.78&amp;format=webp",
-        "background": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/E08FE27F517A152D8174D7264F91B3B9912AA2E127F23AB430C1DD5848E1BF7C/scale?width=1200&amp;aspectRatio=1.78&amp;format=webp"
+        "poster": "https://www.movieposters.com/cdn/shop/products/onward.125786.ar_480x.progressive.jpg?v=1573855877",
+        "background": "https://images.wsj.net/im-161181?width=1280&size=1.77777778"
 
     },
     {
@@ -31,8 +31,8 @@
         "year": "2021",
         "runtime": "1hr 35min",
         "rating": "90% match",
-        "poster":"https://media.wdwnt.com/2021/06/Luca-8-9316829-1200x675.jpeg",
-        "background":"https://media.wdwnt.com/2021/06/Luca-8-9316829-1200x675.jpeg"
+        "poster":"https://cdn.shopify.com/s/files/1/0057/3728/3618/products/luca_uib9wgfd_500x749.jpg?v=1676653030",
+        "background":"https://images.entertainment.ie/media/original_uAQrHntCccFpvxp75XdQgqexlJd.jpg?w=1280&h=768&q=high"
     },
     {
         "id": "4",
@@ -42,8 +42,8 @@
         "year": "2013",
         "runtime": "1hr 42min",
         "rating": "92% match",
-        "poster": "https://c4.wallpaperflare.com/wallpaper/557/321/173/movie-frozen-2-anna-frozen-elsa-frozen-kristoff-frozen-hd-wallpaper-preview.jpg",
-        "background": "https://c4.wallpaperflare.com/wallpaper/557/321/173/movie-frozen-2-anna-frozen-elsa-frozen-kristoff-frozen-hd-wallpaper-preview.jpg"
+        "poster": "https://cdn.shopify.com/s/files/1/0057/3728/3618/products/9af69f74d0a34e3840d25107429f948a_cf87c688-bc12-4430-bf16-d9e3fa0f423a_500x749.jpg?v=1573592514",
+        "background": "https://i0.wp.com/btr.michaelkwan.com/wp-content/uploads/2019/02/elsa.jpg?fit=1280%2C720&ssl=1"
 
     },
     {
@@ -54,8 +54,8 @@
         "year": "1992",
         "runtime": "1hr 30min",
         "rating": "90% match",
-        "poster": "https://c4.wallpaperflare.com/wallpaper/1002/323/708/aladdin-jasmine-sultan-flight-wallpaper-thumb.jpg",
-        "background": "https://c4.wallpaperflare.com/wallpaper/1002/323/708/aladdin-jasmine-sultan-flight-wallpaper-thumb.jpg"
+        "poster": "https://cdn.shopify.com/s/files/1/0057/3728/3618/products/45bfccb60aeb68a42e9133c56c1c8145_b51f412e-f8e4-4d95-aab7-b63ecfb882a1_500x749.jpg?v=1573585428",
+        "background": "https://w.wallhaven.cc/full/x6/wallhaven-x6jw23.jpg"
 
     },
     {
@@ -66,8 +66,8 @@
         "year": "2011",
         "runtime": "1hr 36min",
         "rating": "85% match",
-        "poster": "https://hypixel.net/attachments/rio-jpg.3016587/",
-        "background": "https://hypixel.net/attachments/rio-jpg.3016587/"
+        "poster": "https://cdn.shopify.com/s/files/1/0057/3728/3618/files/rio_ver3_xlg_500x749.jpg?v=1693405276",
+        "background": "https://i0.wp.com/chasingsupermom.com/wp-content/uploads/2014/03/rio-2-still2.jpg?resize=1280%2C640&ssl=1"
 
     },
     {
@@ -78,8 +78,8 @@
         "year": "2020",
         "runtime": "1hr 40min",
         "rating": "93% match",
-        "poster":"https://miro.medium.com/v2/resize:fit:1200/1*njF1YzDwMXK8uhugMzmIAA.jpeg",
-        "background": "https://miro.medium.com/v2/resize:fit:1200/1*njF1YzDwMXK8uhugMzmIAA.jpeg"
+        "poster":"https://cdn.shopify.com/s/files/1/0057/3728/3618/products/soul2020.adv.ar_500x749.jpg?v=1575580375",
+        "background": "https://www.hdwallpapers.in/download/pixar_hd_soul-1280x720.jpg"
 
     }
 ]

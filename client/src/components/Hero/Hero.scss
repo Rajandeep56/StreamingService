@@ -61,5 +61,10 @@
     border-radius: .25rem;
     background: linear-gradient(to right, #fe5c5c, #ff8859); /* Replace with your desired color stops */
     color: white;
+
+    &:hover {
+      background: linear-gradient(to right, #b74242, #b35f3e); /* Replace with your desired color stops */
+
+    }
   }
 }

@@ -3,7 +3,6 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import Video from  "../Video/Video"
 import { Link } from "react-router-dom";
-import { useParams } from "react-router-dom";
 const Videos = ({ commentsList,movieId }) => {
   const [videoList, setVideoList] = useState([]);
 

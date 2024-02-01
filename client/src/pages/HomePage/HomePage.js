@@ -2,6 +2,8 @@ import "./HomePage.scss";
 
 import Hero from "../../components/Hero/Hero";
 import Videos from "../../components/Videos/Videos";
+import Header from "../../components/Header/Header";
+
 
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
@@ -41,6 +43,7 @@ function HomePage() {
           <section className="app" style={{backgroundImage:`url(${commentsList.background})`}}/>
 
     <main className="main">
+    <Header />
       <Hero commentsList={commentsList} />
       <Videos commentsList={commentsList} movieId={movieId}/>
     </main>
