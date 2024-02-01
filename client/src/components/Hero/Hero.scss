@@ -1,0 +1,11 @@
+@use "../../styles/partials/global" as *;
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/typography" as *;
+
+.hero {
+  @include flexbox(column, 1rem);
+  background-color: $color-darkBlack;
+  width: 70rem;
+  margin: 0 auto;
+}

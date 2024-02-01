@@ -1,0 +1,88 @@
+@use "./variables" as *;
+@use "./typography" as *;
+
+// Responsiveness
+@mixin tablet {
+  @media (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: 1280px) {
+    @content;
+  }
+}
+
+// Display Flex
+@mixin flexbox($direction: row, $gap: 0, $wrap: nowrap) {
+  display: flex;
+  flex-direction: $direction;
+  gap: $gap;
+  flex-wrap: $wrap;
+}
+
+// Images & Logo
+@mixin posters {
+  height: 1rem;
+  width: 1rem;
+}
+
+@mixin logo {
+  max-height: 1.5625rem;
+  max-width: 7.5rem;
+}
+
+// Button CTA
+@mixin button-default {
+  height: 2.5rem;
+  padding: 0 2rem;
+  border-radius: 0.25rem;
+  background-color: rgb(42, 42, 42);
+  color: $color-white;
+  border: none;
+}
+
+@mixin button-hover {
+  background-color: black;
+}
+
+// Profile Picture
+@mixin profile {
+  border-radius: 50%;
+  height: 2.5rem;
+  max-width: 2.5rem;
+  background-color: $color-mercury;
+  object-fit: cover;
+}
+
+// Desktop Fonts
+@mixin h1 {
+  font-size: 2.0625rem;
+  line-height: 2.75rem;
+  font-weight: $bold;
+}
+
+@mixin h2 {
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+  font-weight: $bold;
+}
+
+@mixin h3 {
+  font-size: 0.875rem;
+  line-height: 1.375rem;
+  font-weight: $bold;
+}
+
+@mixin p {
+  font-size: 0.875rem;
+  line-height: 1.375rem;
+  font-weight: $regular;
+}
+
+@mixin h4 {
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+  font-weight: $bold;
+}

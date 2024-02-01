@@ -1,0 +1,23 @@
+@use "../../styles/partials/global" as *;
+@use "../../styles/partials/variables" as *;
+@use "../../styles/partials/mixins" as *;
+@use "../../styles/partials/typography" as *;
+
+.header {
+  @include flexbox;
+  padding: 2rem;
+  border-top: 1px solid white;
+  justify-content: space-between; // Start of Responsiveness
+  margin: 0 auto;
+  height: 5.6rem;
+  width: 70rem;
+
+  &__title {
+    @include h3;
+    color: white;
+  }
+
+  &__profile {
+    @include profile;
+  }
+}
