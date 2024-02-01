@@ -4,7 +4,8 @@
         "distributor":"Walt Disney",
         "year":"2008",
         "runtime": "1hr 38min",
-        "rating": "93% match"
+        "rating": "93% match",
+        "imageUrl": "../images/WallE.jpeg"
      },
 
     {
@@ -13,7 +14,8 @@
         "distributor": "Walt Disney",
         "year": "2020",
         "runtime": "1hr 42min",
-        "rating": "88% match"
+        "rating": "88% match",
+        "imageUrl": "../images/Onward.jpeg"
     },
     {
         "id": "3",
@@ -21,7 +23,8 @@
         "distributor": "Walt Disney",
         "year": "2021",
         "runtime": "1hr 35min",
-        "rating": "90% match"
+        "rating": "90% match",
+        "imageUrl": "../images/Luca.jpeg"
     },
     {
         "id": "4",
@@ -29,7 +32,8 @@
         "distributor": "Walt Disney",
         "year": "2013",
         "runtime": "1hr 42min",
-        "rating": "92% match"
+        "rating": "92% match",
+        "imageUrl": "../images/Frozen.jpeg"
     },
     {
         "id": "5",
@@ -37,7 +41,8 @@
         "distributor": "Walt Disney",
         "year": "1992",
         "runtime": "1hr 30min",
-        "rating": "90% match"
+        "rating": "90% match",
+        "imageUrl": "../images/Aladdin.jpeg"
     },
     {
         "id": "6",
@@ -45,7 +50,8 @@
         "distributor": "20th Century Fox",
         "year": "2011",
         "runtime": "1hr 36min",
-        "rating": "85% match"
+        "rating": "85% match",
+        "imageUrl": "../images/Rio.jpeg"
     },
     {
         "id": "7",
@@ -53,6 +59,7 @@
         "distributor": "Walt Disney",
         "year": "2020",
         "runtime": "1hr 40min",
-        "rating": "93% match"
+        "rating": "93% match",
+        "imageUrl": "../images/Soul.jpeg"
     }
 ]

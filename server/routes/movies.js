@@ -18,6 +18,8 @@ router.route("/")
         year: movie['year'],
         runtime: movie['runtime'],
         rating: movie['rating'],
+        imageUrl: movie['imageUrl'],
+
       }});
     res.status(200).json(noIds);
   })
