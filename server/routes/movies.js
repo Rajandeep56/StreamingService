@@ -13,6 +13,7 @@ router.route("/")
     const movieList = fetchMovies();
     const noIds = movieList.map(movie => { 
       return {
+        id:movie['id'],
         title: movie['title'], 
         description: movie['description'],
         distributor: movie['distributor'],
@@ -26,11 +27,12 @@ router.route("/")
   })
   
 
-router.route("/:id")
+router.route("/:movieId")
   .get((req, res) => {
     //const id = req.params.id;
-    const { id } = req.params;
-    const movieMatch = fetchMovies().find((movie) => movie.id == id);
+    const { movieId } = req.params;
+    console.log(movieId);
+    const movieMatch = fetchMovies().find((movie) => movie.id == movieId);
     if(!movieMatch) return res.status(404).json("No movie with that ID");
     res.status(200).json(movieMatch);
   })

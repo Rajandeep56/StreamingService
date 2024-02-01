@@ -1,7 +1,6 @@
 import "./Hero.scss";
 
 function Hero({ commentsList }) {
-  // const [showDetails, setShowDetails] = useState(false);
 
   return (
     <section className="hero">

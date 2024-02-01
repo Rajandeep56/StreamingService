@@ -9,34 +9,25 @@ import axios from "axios";
 
 function HomePage() {
   // const [commentsList, setCommentsList] = useState([]);
-  const { movieId } = useParams();
+   const {movieId}  = useParams();
 
-  const [commentsList, setCommentsList] = useState();
-
-  const getData = async (movieId) => {
-    try {
-      const response = await axios.get(
-        `http://localhost:8000/movies/${movieId}`
-        );
-        setCommentsList(response.data)
-    }
-    catch (error) {
-      console.log("Failed to get data:", error);
-  }}
+  const [commentsList, setCommentsList] = useState([]);
+  console.log(movieId)
+ 
 
   useEffect(() => {
-    // const getData = async (movieId) => {
-    //   try {
-    //     // const videoResponse = await axios.get('http://localhost:8000/movies');
-    //     // setVideoList(videoResponse.data);
-    //     const response = await axios.get(
-    //       `http://localhost:8000/movies/${movieId}`
-    //     );
-    //     setCommentsList(response.data);
-    //   } catch (error) {
-    //     console.log("Failed to get data:", error);
-    //   }
-    // };
+    const getData = async (movieId) => {
+      try {
+        const response = await axios.get(
+          `http://localhost:8000/movies/${movieId}`
+          );
+          setCommentsList(response.data);
+          
+      }
+      catch (error) {
+        console.log("Failed to get data:", error);
+    }}
+   
     if (movieId) {
       getData(movieId);
     } else {
@@ -46,11 +37,14 @@ function HomePage() {
 
   if (commentsList) {
   return (
+    <>
+          <section className="app" style={{backgroundImage:`url(${commentsList.background})`}}/>
+
     <main className="main">
       <Hero commentsList={commentsList} />
-      {/* <Hero title = {video.title}  description={video.description} year= {video.year} runtime= {video.runtime} rating={video.rating}/> */}
       <Videos commentsList={commentsList} movieId={movieId}/>
     </main>
+    </>
   );
 }
   return "Loading";

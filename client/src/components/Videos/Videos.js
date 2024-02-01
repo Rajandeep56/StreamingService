@@ -2,27 +2,22 @@ import "./Videos.scss";
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import Video from  "../Video/Video"
-
-const Videos = ({ commentsList }) => {
-
-  const [videoList, setVideoList] = useState();
-  // const [commentsList, setCommentsList] = useState([]);
-  // const { movieId } = useParams();
+import { Link } from "react-router-dom";
+import { useParams } from "react-router-dom";
+const Videos = ({ commentsList,movieId }) => {
+  const [videoList, setVideoList] = useState([]);
 
   useEffect(() => {
     const getData = async () => {
       try {
         const response = await axios.get('http://localhost:8000/movies');
         setVideoList(response.data);
-        // const commentsResponse = await axios.get(
-        //   `http://localhost:8000/${movieId}`
-        // );
-        // setCommentsList(commentsResponse.data);
       } catch (error) {
         console.log('Failed to get data:', error);
       }
     };
-
+    console.log(movieId);
+    console.log()
     getData();
   }, []);
 
@@ -35,7 +30,7 @@ const Videos = ({ commentsList }) => {
         {videoList.map((video) => {
           return (
             video.id !== commentsList.id && (
-            <Video poster = {video.poster} key={video.id}/>
+              <Link to={`/movies/${video.id}`}> <Video poster = {video.poster} title={video.title} key={video.id} movieId={commentsList.id}/></Link>
             )
           );
             })}

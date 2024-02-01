@@ -4,16 +4,18 @@ import { Link } from "react-router-dom";
 // import poster from "../../assets/images/posters/Brave.jpeg"
 
 
-const Video = ({poster}) => {
+const Video = ({title}) => {
   return (
-    <Link to={`/${poster.id}`}>
-    <img
-      className="videos__poster"
-      src={poster}
-      width="80%"
-      alt="Movie Poster"
-    ></img>
-    </Link>
+    
+    
+    // <img
+    //   className="videos__poster"
+    //   src={poster}
+    //   width="80%"
+    //   alt="Movie Poster"/>
+    <h1>title</h1>
+   
+
   );
 };
 
