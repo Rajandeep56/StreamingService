@@ -1,5 +1,5 @@
 import "./Header.scss";
-import profile from "../../assets/images/profile.jpg";
+import profile from "../../assets/images/Profile.jpg";
 
 function Header() {
   return (
