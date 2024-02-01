@@ -2,8 +2,8 @@ import "./Videos.scss";
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
-import poster from "../../assets/images/posters/Brave.jpeg"
 import Hero from "../Hero/Hero"
+import Video from  "../Video/Video"
 
 const Videos = () => {
   const [videoList, setVideoList] = useState([]);
@@ -33,8 +33,8 @@ const Videos = () => {
         <div className="videos__list">
         {videoList.map((video) => (
             <div key={video.id} >
-            <Hero title = {video.title}  description={video.description} year= {video.year} runtime= {video.runtime} rating={video.rating}/>
-          <img className="videos__poster" src={video.poster} width="80%" alt="Movie Poster"></img>
+            {/* <Hero title = {video.title}  description={video.description} year= {video.year} runtime= {video.runtime} rating={video.rating}/> */}
+            { <Video poster = {video.poster}/>}
         </div>
         
         ))}
