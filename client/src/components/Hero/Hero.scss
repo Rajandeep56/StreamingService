@@ -5,7 +5,61 @@
 
 .hero {
   @include flexbox(column, 1rem);
-  background-color: $color-darkBlack;
-  width: 70rem;
+  max-width: 80rem;
+  width: 100%;
   margin: 0 auto;
+  padding: 0 3rem;
+  height: 35rem;
+  justify-content: center;
+
+  &__title {
+    @include h1;
+    font-weight: $demi;
+    margin: 2rem 0;
+  }
+
+  &__description {
+    @include p;
+    margin: 0;
+    padding-bottom: 1rem;
+  }
+
+  &__details {
+    @include h3;
+  }
+
+  &__section {
+    width: 50%;
+  }
+
+  &__container {
+    @include flexbox (row, 2rem);
+    align-items: center;
+  }
+
+  &__circle {
+    height: 0.25rem;
+    width: 0.25rem;
+    border-radius: 50%;
+    background-color: rgb(190, 190, 190);;
+  }
+
+  &__bar {
+    width: 100%;
+    border-radius: 10px;
+    height: 0.3rem;
+    background-color: rgba(255, 255, 255, 0.598);
+    margin-top: 1rem;
+    position: relative;
+  }
+
+  &__button {
+    padding: 0.8rem 2rem;
+    margin-top: 2rem;
+    min-width: 10rem;
+    border: none;
+    border-radius: .25rem;
+    background: linear-gradient(to right, #fe5c5c, #ff8859); /* Replace with your desired color stops */
+    color: white;
+  }
 }
