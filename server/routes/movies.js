@@ -14,6 +14,7 @@ router.route("/")
     const noIds = movieList.map(movie => { 
       return {
         title: movie['title'], 
+        description:movie['description'],
         distributor: movie['distributor'],
         year: movie['year'],
         runtime: movie['runtime'],
