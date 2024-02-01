@@ -1,30 +1,25 @@
-import React, { useState } from "react";
 import "./Hero.scss";
 
-function Hero({ title, description, year, runtime, rating }) {
-  const [showDetails, setShowDetails] = useState(false);
-
-  
+function Hero({ commentsList }) {
+  // const [showDetails, setShowDetails] = useState(false);
 
   return (
-    <section className={`hero ${showDetails ? "hero--expanded" : ""}`}>
+    <section className="hero">
       <div className="hero__section">
-        <h1 className="hero__title">{title}</h1>
-        <p className="hero__description">{showDetails ? "New Description" : description}</p>
-        {showDetails && (
+        <h1 className="hero__title">{commentsList.title}</h1>
+        <p className="hero__description">{commentsList.description}</p>
           <div className="hero__container">
-            <p className="hero__details">{title}</p>
+            <p className="hero__details">{commentsList.distributor}</p>
             <div className="hero__circle"></div>
-            <p className="hero__details">{year}</p>
+            <p className="hero__details">{commentsList.year}</p>
             <div className="hero__circle"></div>
-            <p className="hero__details">{runtime}</p>
+            <p className="hero__details">{commentsList.runtime}</p>
             <div className="hero__circle"></div>
-            <p className="hero__details">{rating}</p>
+            <p className="hero__details">{commentsList.rating}</p>
           </div>
-        )}
         <div className="hero__bar"></div>
         <div className="hero__bar--scrub"></div>
-        <button className="hero__button" >
+        <button className="hero__button">
           Play Movie
         </button>
       </div>
