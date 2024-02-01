@@ -1,58 +1,79 @@
 [
     {   "id":"1",
         "title":"WALL-E",
+        "description": "In a future Earth, a solitary waste-collecting robot uncovers a plant that sparks a profound journey, unraveling themes of love, environmentalism, and the enduring spirit of humanity.",
         "distributor":"Walt Disney",
         "year":"2008",
         "runtime": "1hr 38min",
-        "rating": "93% match"
+        "rating": "93% match",
+        "poster": "",
+        "background": ""
      },
 
     {
         "id": "2",
         "title": "Onward",
+        "description": "Set in a suburban fantasy realm, two elf brothers embark on a quest to resurrect their deceased father using a rare magical artifact, weaving a tale of humor, brotherhood, and the enchantment found within familial bonds.",
         "distributor": "Walt Disney",
         "year": "2020",
         "runtime": "1hr 42min",
-        "rating": "88% match"
+        "rating": "88% match",
+        "poster": "",
+        "background": ""
     },
     {
         "id": "3",
         "title": "Luca",
+        "description": "Against the scenic Italian Riviera, a young sea monster named Luca forms an unlikely friendship during a transformative summer, challenging societal expectations and celebrating the power of authentic connections.",
         "distributor": "Walt Disney",
         "year": "2021",
         "runtime": "1hr 35min",
-        "rating": "90% match"
+        "rating": "90% match",
+        "poster": "",
+        "background": ""
     },
     {
         "id": "4",
         "title": "Frozen",
+        "description": "Within a magical kingdom, the bond between royal sisters is tested when one sister's magical powers inadvertently plunge their realm into eternal winter, exploring themes of self-acceptance and sisterhood.",
         "distributor": "Walt Disney",
         "year": "2013",
         "runtime": "1hr 42min",
-        "rating": "92% match"
+        "rating": "92% match",
+        "poster": "",
+        "background": ""
     },
     {
         "id": "5",
         "title": "Aladdin",
+        "description": "In the bustling city of Agrabah, a street-smart youth encounters a magical genie, embarking on a journey of self-discovery, love, and adventure amidst the vibrant Arabian nights.",
         "distributor": "Walt Disney",
         "year": "1992",
         "runtime": "1hr 30min",
-        "rating": "90% match"
+        "rating": "90% match",
+        "poster": "",
+        "background": ""
     },
     {
         "id": "6",
         "title": "Rio",
+        "description": "A rare blue macaw named Blu experiences a thrilling adventure in Rio de Janeiro, navigating the colorful and lively streets while discovering the true meaning of freedom.",
         "distributor": "20th Century Fox",
         "year": "2011",
         "runtime": "1hr 36min",
-        "rating": "85% match"
+        "rating": "85% match",
+        "poster": "",
+        "background": ""
     },
     {
         "id": "7",
         "title": "Soul",
+        "description": "Navigating the afterlife, a passionate jazz musician named Joe Gardner explores profound questions of purpose, passion, and the joy found in life's ordinary moments, forming connections that transcend the boundaries of existence.",
         "distributor": "Walt Disney",
         "year": "2020",
         "runtime": "1hr 40min",
-        "rating": "93% match"
+        "rating": "93% match",
+        "poster": "",
+        "background": ""
     }
 ]
