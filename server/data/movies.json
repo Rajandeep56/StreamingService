@@ -19,8 +19,8 @@
         "year": "2020",
         "runtime": "1hr 42min",
         "rating": "88% match",
-        "poster": "https://www.intofilm.org/intofilm-production/1341/scaledcropped/3000x1688/resources/1341/brave-ep-disney.jpg",
-        "background": "https://www.intofilm.org/intofilm-production/1341/scaledcropped/3000x1688/resources/1341/brave-ep-disney.jpg"
+        "poster": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/E08FE27F517A152D8174D7264F91B3B9912AA2E127F23AB430C1DD5848E1BF7C/scale?width=1200&amp;aspectRatio=1.78&amp;format=webp",
+        "background": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/E08FE27F517A152D8174D7264F91B3B9912AA2E127F23AB430C1DD5848E1BF7C/scale?width=1200&amp;aspectRatio=1.78&amp;format=webp"
 
     },
     {
@@ -31,9 +31,8 @@
         "year": "2021",
         "runtime": "1hr 35min",
         "rating": "90% match",
-        "poster": "../images/Luca.jpeg",
-        "background": "../images/Luca.jpeg"
-
+        "poster":"https://media.wdwnt.com/2021/06/Luca-8-9316829-1200x675.jpeg",
+        "background":"https://media.wdwnt.com/2021/06/Luca-8-9316829-1200x675.jpeg"
     },
     {
         "id": "4",
@@ -43,8 +42,8 @@
         "year": "2013",
         "runtime": "1hr 42min",
         "rating": "92% match",
-        "poster": "../images/Frozen.jpeg",
-        "background": "../images/Frozen.jpeg"
+        "poster": "https://c4.wallpaperflare.com/wallpaper/557/321/173/movie-frozen-2-anna-frozen-elsa-frozen-kristoff-frozen-hd-wallpaper-preview.jpg",
+        "background": "https://c4.wallpaperflare.com/wallpaper/557/321/173/movie-frozen-2-anna-frozen-elsa-frozen-kristoff-frozen-hd-wallpaper-preview.jpg"
 
     },
     {
@@ -55,8 +54,8 @@
         "year": "1992",
         "runtime": "1hr 30min",
         "rating": "90% match",
-        "poster": "../images/Aladdin.jpeg",
-        "background": "../images/Aladdin.jpeg"
+        "poster": "https://c4.wallpaperflare.com/wallpaper/1002/323/708/aladdin-jasmine-sultan-flight-wallpaper-thumb.jpg",
+        "background": "https://c4.wallpaperflare.com/wallpaper/1002/323/708/aladdin-jasmine-sultan-flight-wallpaper-thumb.jpg"
 
     },
     {
@@ -67,8 +66,8 @@
         "year": "2011",
         "runtime": "1hr 36min",
         "rating": "85% match",
-        "poster": "../images/Rio.jpeg",
-        "background": "../images/Rio.jpeg"
+        "poster": "https://hypixel.net/attachments/rio-jpg.3016587/",
+        "background": "https://hypixel.net/attachments/rio-jpg.3016587/"
 
     },
     {
@@ -79,8 +78,8 @@
         "year": "2020",
         "runtime": "1hr 40min",
         "rating": "93% match",
-        "poster": "../images/Soul.jpeg",
-        "background": "../images/Soul.jpeg"
+        "poster":"https://miro.medium.com/v2/resize:fit:1200/1*njF1YzDwMXK8uhugMzmIAA.jpeg",
+        "background": "https://miro.medium.com/v2/resize:fit:1200/1*njF1YzDwMXK8uhugMzmIAA.jpeg"
 
     }
 ]
