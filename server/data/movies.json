@@ -5,7 +5,8 @@
         "year":"2008",
         "runtime": "1hr 38min",
         "rating": "93% match",
-        "imageUrl": "../images/WallE.jpeg"
+        "poster": "../images/WallE.jpeg",
+        "background": "../images/WallE.jpeg"
      },
 
     {
@@ -15,7 +16,8 @@
         "year": "2020",
         "runtime": "1hr 42min",
         "rating": "88% match",
-        "imageUrl": "../images/Onward.jpeg"
+        "poster": "../images/Onward.jpeg",
+        "background": "../images/Onward.jpeg"
     },
     {
         "id": "3",
@@ -24,7 +26,8 @@
         "year": "2021",
         "runtime": "1hr 35min",
         "rating": "90% match",
-        "imageUrl": "../images/Luca.jpeg"
+        "poster": "../images/Luca.jpeg",
+        "background": "../images/Luca.jpeg"
     },
     {
         "id": "4",
@@ -33,7 +36,8 @@
         "year": "2013",
         "runtime": "1hr 42min",
         "rating": "92% match",
-        "imageUrl": "../images/Frozen.jpeg"
+        "poster": "../images/Frozen.jpeg",
+        "background": "../images/Frozen.jpeg"
     },
     {
         "id": "5",
@@ -42,7 +46,8 @@
         "year": "1992",
         "runtime": "1hr 30min",
         "rating": "90% match",
-        "imageUrl": "../images/Aladdin.jpeg"
+        "poster": "../images/Aladdin.jpeg",
+        "background": "../images/Aladdin.jpeg"
     },
     {
         "id": "6",
@@ -51,7 +56,8 @@
         "year": "2011",
         "runtime": "1hr 36min",
         "rating": "85% match",
-        "imageUrl": "../images/Rio.jpeg"
+        "poster": "../images/Rio.jpeg",
+        "background": "../images/Rio.jpeg"
     },
     {
         "id": "7",
@@ -60,6 +66,7 @@
         "year": "2020",
         "runtime": "1hr 40min",
         "rating": "93% match",
-        "imageUrl": "../images/Soul.jpeg"
+        "poster": "../images/Soul.jpeg",
+        "background": "../images/Soul.jpeg"
     }
 ]
