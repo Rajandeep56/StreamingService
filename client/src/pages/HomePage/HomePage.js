@@ -46,7 +46,7 @@ function HomePage() {
 
   if (commentsList) {
   return (
-    <main class="main">
+    <main className="main">
       <Hero commentsList={commentsList} />
       {/* <Hero title = {video.title}  description={video.description} year= {video.year} runtime= {video.runtime} rating={video.rating}/> */}
       <Videos commentsList={commentsList} movieId={movieId}/>

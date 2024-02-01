@@ -7,7 +7,7 @@
         "year":"2008",
         "runtime": "1hr 38min",
         "rating": "93% match",
-        "poster": "../images/WallE.jpeg",
+        "poster": "https://www.intofilm.org/intofilm-production/1341/scaledcropped/3000x1688/resources/1341/brave-ep-disney.jpg",
         "background": "../images/WallE.jpeg"
 
      },
@@ -31,7 +31,6 @@
         "year": "2021",
         "runtime": "1hr 35min",
         "rating": "90% match",
-
         "poster": "../images/Luca.jpeg",
         "background": "../images/Luca.jpeg"
 
@@ -44,7 +43,6 @@
         "year": "2013",
         "runtime": "1hr 42min",
         "rating": "92% match",
-
         "poster": "../images/Frozen.jpeg",
         "background": "../images/Frozen.jpeg"
 
@@ -57,7 +55,6 @@
         "year": "1992",
         "runtime": "1hr 30min",
         "rating": "90% match",
-
         "poster": "../images/Aladdin.jpeg",
         "background": "../images/Aladdin.jpeg"
 
@@ -70,7 +67,6 @@
         "year": "2011",
         "runtime": "1hr 36min",
         "rating": "85% match",
-
         "poster": "../images/Rio.jpeg",
         "background": "../images/Rio.jpeg"
 
@@ -83,7 +79,6 @@
         "year": "2020",
         "runtime": "1hr 40min",
         "rating": "93% match",
-
         "poster": "../images/Soul.jpeg",
         "background": "../images/Soul.jpeg"
 
