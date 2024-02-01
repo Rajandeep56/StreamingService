@@ -5,19 +5,27 @@
 
 .header {
   @include flexbox;
-  padding: 2rem;
-  border-top: 1px solid white;
   justify-content: space-between; // Start of Responsiveness
   margin: 0 auto;
-  height: 5.6rem;
-  width: 70rem;
+  height: 6rem;
+  width: 100%;
+  max-width: 80rem;
+  padding: 0 3rem;
+
+  &__container {
+    @include flexbox;
+    align-items: center;
+    height: 6rem;
+    border-top: 2px solid white;
+  }
 
   &__title {
-    @include h3;
-    color: white;
+    @include p;
+    margin: 0;
   }
 
   &__profile {
     @include profile;
+    align-self: center;
   }
 }
