@@ -7,6 +7,9 @@ require("dotenv").config();
 
 const moviesRoutes = require("./routes/movies");
 
+// app.use(express.static('pitchers')); // make /pitchers files available at root
+app.use(express.static('./images'));
+
 const { PORT } = process.env;
 
 const trackingData = [];

@@ -7,8 +7,9 @@
         "year":"2008",
         "runtime": "1hr 38min",
         "rating": "93% match",
-        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwZf8dA2nknM9lPQeOHBtWmDP6O_sCZ_7g0A&usqp=CAU",
-        "background": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwZf8dA2nknM9lPQeOHBtWmDP6O_sCZ_7g0A&usqp=CAU"
+        "poster": "../images/WallE.jpeg",
+        "background": "../images/WallE.jpeg"
+
      },
     {
         "id": "2",
@@ -18,8 +19,9 @@
         "year": "2020",
         "runtime": "1hr 42min",
         "rating": "88% match",
-        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwZf8dA2nknM9lPQeOHBtWmDP6O_sCZ_7g0A&usqp=CAU",
-        "background": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwZf8dA2nknM9lPQeOHBtWmDP6O_sCZ_7g0A&usqp=CAU"
+        "poster": "../images/Onward.jpeg",
+        "background": "../images/Onward.jpeg"
+
     },
     {
         "id": "3",
@@ -29,8 +31,10 @@
         "year": "2021",
         "runtime": "1hr 35min",
         "rating": "90% match",
-        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwZf8dA2nknM9lPQeOHBtWmDP6O_sCZ_7g0A&usqp=CAU",
-        "background": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwZf8dA2nknM9lPQeOHBtWmDP6O_sCZ_7g0A&usqp=CAU"
+
+        "poster": "../images/Luca.jpeg",
+        "background": "../images/Luca.jpeg"
+
     },
     {
         "id": "4",
@@ -40,8 +44,10 @@
         "year": "2013",
         "runtime": "1hr 42min",
         "rating": "92% match",
-        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwZf8dA2nknM9lPQeOHBtWmDP6O_sCZ_7g0A&usqp=CAU",
-        "background": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwZf8dA2nknM9lPQeOHBtWmDP6O_sCZ_7g0A&usqp=CAU"
+
+        "poster": "../images/Frozen.jpeg",
+        "background": "../images/Frozen.jpeg"
+
     },
     {
         "id": "5",
@@ -51,8 +57,10 @@
         "year": "1992",
         "runtime": "1hr 30min",
         "rating": "90% match",
-        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwZf8dA2nknM9lPQeOHBtWmDP6O_sCZ_7g0A&usqp=CAU",
-        "background": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwZf8dA2nknM9lPQeOHBtWmDP6O_sCZ_7g0A&usqp=CAU"
+
+        "poster": "../images/Aladdin.jpeg",
+        "background": "../images/Aladdin.jpeg"
+
     },
     {
         "id": "6",
@@ -62,8 +70,10 @@
         "year": "2011",
         "runtime": "1hr 36min",
         "rating": "85% match",
-        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwZf8dA2nknM9lPQeOHBtWmDP6O_sCZ_7g0A&usqp=CAU",
-        "background": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwZf8dA2nknM9lPQeOHBtWmDP6O_sCZ_7g0A&usqp=CAU"
+
+        "poster": "../images/Rio.jpeg",
+        "background": "../images/Rio.jpeg"
+
     },
     {
         "id": "7",
@@ -73,7 +83,9 @@
         "year": "2020",
         "runtime": "1hr 40min",
         "rating": "93% match",
-        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwZf8dA2nknM9lPQeOHBtWmDP6O_sCZ_7g0A&usqp=CAU",
-        "background": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwZf8dA2nknM9lPQeOHBtWmDP6O_sCZ_7g0A&usqp=CAU"
+
+        "poster": "../images/Soul.jpeg",
+        "background": "../images/Soul.jpeg"
+
     }
 ]
